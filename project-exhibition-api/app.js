@@ -13,6 +13,8 @@ app.get('/', (req, res) => {
     })
   }
 
+  
+
   dbConfig.sqlConnect(sql, sqlArr, callBack)
 })
 

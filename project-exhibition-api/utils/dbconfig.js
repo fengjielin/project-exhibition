@@ -13,7 +13,7 @@ module.exports = {
     port: '3306', // 端口号(默认:3306)
     user: 'root', // 用户名
     password: 'root', // 密码
-    database: 'exapp' // 数据库名
+    database: 'project' // 数据库名
   },
   // 连接数据库，使用mysql的连接池方式
   // 连接池对象
