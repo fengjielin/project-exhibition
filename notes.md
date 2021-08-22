@@ -1,9 +1,29 @@
 Q & A
 
+1. 
 question:Vue项目中的views和components文件夹有什么区别？
 
 answer:可重用的内容可以保存在src/components文件夹中，与路由器绑定的内容可以保存在src/views中
 
+2. 
+question: css使用别名引入背景图片失败
+
+answer: 格式需要在前面加上 ~
+
+```css
+background-image: url('~assets/images/portrait.jpg');
+```
+
+3. 
+question: 行内绑定style，background: url(‘../../assets/img/xxxxx’)直接写在行间样式不生效，即不能直接在标签中style属性中写，必须写在非行间样式才会生效。
+
+answer: 如果要写在行间样式中，需要对资源进行导入，比如ES规范的import或者CommomJS规范的require
+
+```vue
+:style="{
+  background: `#008c8c url(${require(`../../assets/images/portrait.png`)}) no-repeat center/cover`,
+}"
+```
 
 git命令
 

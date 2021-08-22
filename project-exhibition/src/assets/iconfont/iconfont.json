@@ -1,0 +1,23 @@
+{
+  "id": "2760755",
+  "name": "exhibition",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "22273862",
+      "name": "alone-side-left",
+      "font_class": "alone-side-left",
+      "unicode": "e723",
+      "unicode_decimal": 59171
+    },
+    {
+      "icon_id": "22273863",
+      "name": "alone-side-right",
+      "font_class": "alone-side-right",
+      "unicode": "e724",
+      "unicode_decimal": 59172
+    }
+  ]
+}
